@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CheckPalindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
+        System.out.print("Please Enter a number: ");
         int num = sc.nextInt();
         int originalNum = num;
         int i = 0;
