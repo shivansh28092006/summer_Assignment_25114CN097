@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class LcmOfTwoNum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
+        System.out.print("Please enter the first number: ");
         int a = scanner.nextInt();
-        System.out.print("Enter the second number: ");
+        System.out.print("Please enter the second number: ");
         int b = scanner.nextInt();
         int lcm = lcm(a, b);
         System.out.println("LCM of " + a + " and " + b + " is: " + lcm);
