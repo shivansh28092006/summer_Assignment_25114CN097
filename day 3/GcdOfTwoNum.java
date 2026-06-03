@@ -1,3 +1,5 @@
+// Write a program to find GCD of two numbers.
+
 import java.util.Scanner;
 public class GcdOfTwoNum {
     public static void main(String[] args) {
@@ -15,5 +17,6 @@ public class GcdOfTwoNum {
             return x;
         return gcd(y, x % y);
     }
+
     
 }

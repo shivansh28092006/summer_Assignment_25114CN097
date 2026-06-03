@@ -1,4 +1,4 @@
-// Write a Java program to find the LCM of two numbers. 
+//write a program to find LCM of two numbers.
 
 import java.util.Scanner;
 public class LcmOfTwoNum {
@@ -8,8 +8,12 @@ public class LcmOfTwoNum {
         int a = scanner.nextInt();
         System.out.print("Enter the second number: ");
         int b = scanner.nextInt();
-        int lcm = (a * b) / gcd(a, b);
+        int lcm = lcm(a, b);
         System.out.println("LCM of " + a + " and " + b + " is: " + lcm);
+    }
+
+    public static int lcm(int x, int y) {
+        return (x * y) / gcd(x, y);
     }
 
     public static int gcd(int x, int y) {
@@ -17,4 +21,5 @@ public class LcmOfTwoNum {
             return x;
         return gcd(y, x % y);
     }
+    
 }
