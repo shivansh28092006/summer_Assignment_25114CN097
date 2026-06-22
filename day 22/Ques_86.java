@@ -8,7 +8,7 @@ public class Ques_86 {
         System.out.println("Enter a sentence:");
         String str = sc.nextLine();
         String[] words = str.split(" ");
-        System.out.println("Number of words: " + words.length);
+        System.out.println("number of words: " + words.length);
     }
     
 }
